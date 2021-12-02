@@ -1,4 +1,4 @@
-<div class="ui container activities-container">
+<div class="ui container segment activities-container">
   <h2 class="ui">Aktywności:</h2>
   <ul class="ui">
     <ng-container *ngFor="let activity of activities">
@@ -16,7 +16,7 @@
     </ng-container>
   </ul>
 </div>
-<div class="ui container items-container">
+<div class="ui container segment items-container">
   <h2 class="ui">Do spakowania:</h2>
   <div class="item-groups-container">
     <div *ngFor="let group of itemsGroupedByCategory | keyvalue">

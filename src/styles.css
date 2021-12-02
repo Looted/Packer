@@ -28825,3 +28825,16 @@ body.pushable > .pusher {
     background-color: #fcfcfd;
   }
 }
+
+body {
+  /* The image used */
+  background-image: url("https://raw.githubusercontent.com/Looted/Packer/main/src/assets/bg.jpg");
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
