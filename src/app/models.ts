@@ -15,6 +15,7 @@ export enum ActivityType {
 
 export enum ItemCategory {
   Ubrania = 'Ubrania',
+  Obuwie = 'Obuwie',
   Elektronika = 'Elektronika',
   Inne = 'Inne',
 }
